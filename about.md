@@ -12,4 +12,4 @@ Github username: dwieker
 
 ### Contact me
 
-[email@domain.com](mailto:devin.wieker@gmail.com)
+[devin.wieker@gmail.com](mailto:devin.wieker@gmail.com)
