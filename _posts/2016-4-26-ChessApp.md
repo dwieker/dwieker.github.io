@@ -3,6 +3,8 @@ layout: post
 title: Desktop Chess App/Chess Engine
 ---
 
+![Ouput](http://chessmaine.net/chessmaine/imagesB/stock%20images/001.jpg)
+
 I'm terrible at chess, but recently I've been on a mission to learn more about the game. There's a lot of free applications
 on the internet that pit you against a chess AI and analyze your moves, which is super useful when you don't have
 anybody to play against or don't want to feel rushed. 
@@ -27,4 +29,4 @@ I made a GUI using the java swing libraries so I could easily see my engine play
 
 ![Output](https://github.com/dwieker/ChessApp/blob/master/gif/out.gif)
 
-Work in progress! Feel free to steal it: https://github.com/dwieker/ChessApp
+Work in progress! [Feel free to steal it](https://github.com/dwieker/ChessApp)
