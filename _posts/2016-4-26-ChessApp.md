@@ -3,7 +3,7 @@ layout: post
 title: Desktop Chess App/Chess Engine
 ---
 
-![Ouput](http://chessmaine.net/chessmaine/imagesB/stock%20images/001.jpg)
+![Ouput](https://github.com/dwieker/dwieker.github.io/blob/master/images/chessApp.png?raw=true)
 
 I'm terrible at chess, but recently I've been on a mission to learn more about the game. There's a lot of free applications
 on the internet that pit you against a chess AI and analyze your moves, which is super useful when you don't have
@@ -25,8 +25,6 @@ There's a standard style of chess engine: UCI. I wrote my code to abide by this 
 The cool part. I used an algorithm called "alpha-beta",  which is essentially an optimized version of the ["mini-max" algorithm](https://en.wikipedia.org/wiki/Minimax). The short explanation: the algorthim recursively iterates through every possible future sequence of moves and evaluates the state of the board at the end of each sequence, ingnoring sequences that lead to unfaforable outcomes and further investigating sequences that look promising. Board state had to quantified, which I did with a combination of piece count (more pieces = better) and piece positioning (knights should be in the center, bishops should have a line of sight across the board, etc.). I also added logic that forced the alpha-beta algorithm to search deeper when there is a lot of action (if a piece is taken, don't stop looking; search moves after to see if the piece might be captured back immeditately, for example)
 
 ### Graphical Interface
-I made a GUI using the java swing libraries so I could easily see my engine play. The GUI can load any UCI compatible engine and any set of piece images. Here's a gif:
-
-![Output](https://github.com/dwieker/ChessApp/blob/master/gif/out.gif)
+I made a GUI using the java swing libraries so I could easily see my engine play. The GUI can load any UCI compatible engine and any set of piece images. 
 
 Work in progress! [Feel free to steal it](https://github.com/dwieker/ChessApp)
