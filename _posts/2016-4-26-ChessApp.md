@@ -8,7 +8,7 @@ on the internet that will pit you against a chess AI and analyze your moves, whi
 anybody to play against or don't want to feel rushed. 
 
 The history of chess engines is actually pretty interesting. Modern computers can easily defeat any human player -- even
-grandmasters -- but there have been my variations of algorithms and techniques before that was so. With the help of online chess AI resources, I decided to attempt my own chess engine and see if it could beat out any of my moderately skilled friends.
+grandmasters -- but there's been many variations of algorithms and techniques before that was true. With the help of online chess AI resources, I decided to attempt my own chess engine and see if it could beat out any of my moderately skilled friends.
 
 ### Board Representation
 There's multiple ways to represent the state of a chess board, each with advantages and disatvantages. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also bitboard[https://chessprogramming.wikispaces.com/Bitboards]. I went with something called the ("0x88" representation)[https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
