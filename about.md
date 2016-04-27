@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Aspiring Data Scientist.
+Aspiring Data Scientist. (Job offers are welcomed :bowtie:)
 
 ### More Information
 
