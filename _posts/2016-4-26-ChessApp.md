@@ -16,7 +16,7 @@ grandmasters -- but there's been many attempts at different algorithms and techn
 There's multiple ways to represent the state of a chess board, each with advantages and disatvantages. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also [bitboards](https://chessprogramming.wikispaces.com/Bitboards). I went with something called the ["0x88" representation](https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
 
 ### Game Rules
-Next I had to program the internal game logic. I made a class for each chess piece and encoded all the rules inside of a master Board class that calculates possible moves, searches for checkmate, etc.
+Next, I had to program the internal game logic. I made a java class for each chess piece and encoded all the rules inside of a master Board class that calculates possible moves, searches for checkmate, etc.
 
 ### Output
 There's a standard style of chess engine: [UCI](https://en.wikipedia.org/wiki/Universal_Chess_Interface). I wrote my code to abide by this standard. You setup internal board states with a string representing the state of the board, and send commands to the chess engine through standard input, such as "move a2a3" (moves piece on a2 to a3). The chess engine then responds with its decision to standard output.
