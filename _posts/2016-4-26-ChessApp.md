@@ -9,7 +9,7 @@ I'm terrible at chess, but recently I've been on a mission to learn more about t
 on the internet that pit you against a chess AI and analyze your moves, which is super useful when you don't have
 anybody to play against or don't want to feel rushed. 
 
-The history of chess engines is actually pretty interesting. Modern computers can easily defeat any human player -- even
+The history of chess engines is pretty interesting. Modern computers can easily defeat any human player -- even
 grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, I decided to attempt my own chess engine and see if it could beat out any of my moderately skilled friends.
 
 ### Board Representation
