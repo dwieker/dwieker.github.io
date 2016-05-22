@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+</style>
+<body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -52,3 +68,4 @@ d3.json("miserables.json", function(error, graph) {
 });
 
 </script>
+</body>
