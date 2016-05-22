@@ -5,8 +5,7 @@ title: d3
 
 TEST POST
 
-<iframe src="http://bl.ocks.org/mbostock/raw/5583afd2a0d03b9c94918659fa151cac/" marginwidth="0" marginheight="0" scrolling="no" width="600" height="400"></iframe>
-
+<iframe src="http://embed.vida.io/documents/d82uSDX89uRFet64D" width="800" height="475" seamless frameBorder="0" scrolling="no"></iframe>
 
 
 
