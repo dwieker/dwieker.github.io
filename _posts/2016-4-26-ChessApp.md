@@ -5,12 +5,10 @@ title: Desktop Chess App/Chess Engine
 
 ![Ouput](https://github.com/dwieker/dwieker.github.io/blob/master/images/chessApp.png?raw=true)
 
-I'm terrible at chess, but recently I've been on a mission to learn more about the game. There's a lot of free applications
-on the internet that pit you against a chess AI and analyze your moves, which is super useful when you don't have
-anybody to play against or don't want to feel rushed. 
+ 
 
 The history of chess engines is pretty interesting. Modern computers can easily defeat any human player -- even
-grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, I decided to attempt my own chess engine and see if it could beat out any of my moderately skilled friends.
+grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, I decided to attempt my own chess engine to learn more about the game (and see if it could beat any of my friends.)
 
 ### Board Representation
 There's multiple ways to represent the state of a chess board, each with pros and cons. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also [bitboards](https://chessprogramming.wikispaces.com/Bitboards). I went with something called the ["0x88" representation](https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
