@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Aspiring Data Scientist. 
+Aspiring Data Scientist in San Fransisco.
 
 
 B.S. Physics, Minor Mathematics  
