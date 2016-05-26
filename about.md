@@ -13,11 +13,6 @@ California Polytechnic University, 2016
 
 Snowboarding, motorcycles and hiking help maintain my sanity outside of the work place :)
 
-
-### More Information
-
-Github username: dwieker
-
-### Contact me
+### Contact Me!
 
 [devin DOT wieker AT gmail DOT com](mailto:devin.wieker@gmail.com)
