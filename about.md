@@ -7,8 +7,7 @@ permalink: /about/
 Aspiring Data Scientist. 
 
 
-B.S. Physics, Minor Mathematics
-
+B.S. Physics, Minor Mathematics  
 California Polytechnic University, 2016
 
 
