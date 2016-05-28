@@ -8,7 +8,9 @@ title: Embedding d3 in github.io posts
 
 You can embed d3 into these jekyll github blogs! Try dragging around nodes. I'm using [vida.io](https://vida.io/) to host the visualization and the "iframe" html5 tag to render it here. Check the page source! 
 
-For those unfamiliar with "d3": It's essentially a java script library that allows you to easily create "data driven (web) documents" (3 d's... GET IT?). For example, in the visualization above, each node is bound to 2D point. You can shift and transform these 2D points and use d3 to easily render the bounded nodes and lines in an html document, avoiding the arduous task of manually modifying html attributes. 
+For those unfamiliar with "d3": It's essentially a java script library that allows you to easily create "data driven (web) documents" (3 d's... GET IT?). For example, in the visualization above, each node is binded to a point. You can shift and transform these points and use d3 to easily render the newly shifted nodes and lines in an html document. Without d3, you would have to arduously modify html attributes yourself.
+
+[Here's a cool collection of d3 visualizations.](https://bl.ocks.org/mbostock)
 
 
 
