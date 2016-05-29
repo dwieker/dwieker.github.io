@@ -21,6 +21,10 @@ Snowboarding, motorcycles and hiking help maintain my sanity outside of the work
 [linkedin](https://www.linkedin.com/in/dwieker)
 
 
+
+## Random D3!  
+### (Because D3 s awesome..)
+
 Try moving the center black circle
 
 <iframe src="https://vida.io/gists/ZWvFc6xXsXFBgSFgE/index.html" seamless frameborder="0" width="508" height="521"></iframe>
