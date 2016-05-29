@@ -8,10 +8,10 @@ title: Desktop Chess App/Chess Engine
  
 
 The history of chess engines is pretty interesting. Modern computers can easily defeat any human player -- even
-grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, I decided to attempt my own chess engine to learn more about the game (and see if it could beat any of my friends.)
+grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, I decided to attempt my own chess engine to learn more about chess AI (and see if it could beat any of my friends.)
 
 ### Board Representation
-There's multiple ways to represent the state of a chess board, each with pros and cons. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also [bitboards](https://chessprogramming.wikispaces.com/Bitboards). I went with something called the ["0x88" representation](https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
+There's multiple ways to represent the state of a chess board, each with pros and cons. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also [bitboards](https://chessprogramming.wikispaces.com/Bitboards), which is considered to be one of the fastest implementations (but also difficult). I went with something called the ["0x88" representation](https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and was also very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
 
 ### Game Rules
 Next, I had to program the internal game logic. I made a java class for each chess piece and encoded all the rules inside of a master Board class that calculates possible moves, searches for checkmate, etc.
