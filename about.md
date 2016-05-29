@@ -22,8 +22,8 @@ Snowboarding, motorcycles and hiking help maintain my sanity outside of the work
 
 
 
-## Random D3!  
-### (Because D3 s awesome..)
+## Random D3!     
+(Because D3 is awesome..)
 
 Try moving the center black circle
 
