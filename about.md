@@ -17,5 +17,5 @@ Snowboarding, motorcycles and hiking help maintain my sanity outside of the work
 
 ### Contact Me!
 
-[devin DOT wieker AT gmail DOT com](mailto:devin.wieker@gmail.com)
-[linkedin](Public Profilehttps://www.linkedin.com/in/dwieker)
+[devin DOT wieker AT gmail DOT com](mailto:devin.wieker@gmail.com)  
+[linkedin](https://www.linkedin.com/in/dwieker)
