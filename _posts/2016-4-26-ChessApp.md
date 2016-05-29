@@ -14,7 +14,11 @@ grandmasters -- but there's been many attempts at different algorithms and techn
 There's multiple ways to represent the state of a chess board, each with pros and cons. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also [bitboards](https://chessprogramming.wikispaces.com/Bitboards), which is considered to be one of the fastest implementations (but also difficult). I went with something called the ["0x88" representation](https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and was also very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
 
 ### Game Rules
-Next, I had to program the internal game logic. I made a java class for each chess piece and encoded all the rules inside of a master Board class that calculates possible moves, searches for checkmate, etc.
+Next, I had to program the internal game logic. I made a java class for each chess piece and encoded all the rules inside of a master Board class that calculates possible moves, searches for checkmate, etc. 
+
+Random fact: there's apparently a move called the [en passant](https://www.chess.com/chessopedia/view/en-passant), which I had absolutely no idea existed. Who knew.
+
+To test the accuracy of the game rules, you can recursively generate every possible move sequence and count the number of board states at each depth. The numbers should match already determined counts. If they don't match, your moving rules are incorrect -- at some point the board is making illegal moves or not seeing possible moves. 
 
 ### Output
 There's a standard style of chess engine: [UCI](https://en.wikipedia.org/wiki/Universal_Chess_Interface). I wrote my code to abide by this standard. You setup internal board states with a string representing the state of the board, and send commands to the chess engine through standard input, such as "move a2a3" (moves piece on a2 to a3). The chess engine then responds with its decision to standard output.
