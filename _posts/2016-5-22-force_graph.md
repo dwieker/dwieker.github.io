@@ -10,7 +10,7 @@ You can embed d3 into [jekyll github blogs!](https://jekyllrb.com/) Try dragging
 
 For those unfamiliar with "d3": It's essentially a java script library that allows you to easily create "data driven (web) documents" (3 d's... GET IT?). From d3's website itself: "You can use D3 to generate an HTML table from an array of numbers. Or, use the same data to create an interactive SVG bar chart with smooth transitions and interaction." 
 
-In the visualization above, each node is binded to a point in a javascript array. You can shift and transform these points and use d3 to easily render the newly shifted nodes and lines in an html document. Without d3, you would have to arduously modify html attributes yourself.
+In the visualization above, each node is binded to a point in a javascript array. You can transform these points and use d3 to easily render the newly shifted nodes and lines in an html document. Without d3, you would have to arduously modify html attributes yourself.
 
 [Here's a cool collection of d3 visualizations.](https://bl.ocks.org/mbostock)
 
