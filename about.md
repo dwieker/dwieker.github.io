@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Aspiring Data Scientist in San Fransisco. Currently a student of Metis, an immersive 12 week program focused on training industry ready data scientists who already have a math and programming background. 
+Aspiring Data Scientist in San Fransisco. Currently a student at Metis, an immersive 12 week program -- funded by Kaplan -- focused on training industry ready data scientists with a math and programming background. 
 
-Here I show some of the projects I've been working on both for Metis and personal. I'm just begining the job searching process, so please feel free to contact me if you're interested in hiring! :)
+In this blog I write about some of the projects I've been working on. I'm just begining the job searching process, so please feel free to contact me if you're interested in hiring!
 
 Education:  
 B.S. Physics, Minor Mathematics  
@@ -18,3 +18,4 @@ Snowboarding, motorcycles and hiking help maintain my sanity outside of the work
 ### Contact Me!
 
 [devin DOT wieker AT gmail DOT com](mailto:devin.wieker@gmail.com)
+[linkedin](Public Profilehttps://www.linkedin.com/in/dwieker)
