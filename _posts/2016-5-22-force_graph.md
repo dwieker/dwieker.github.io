@@ -4,7 +4,7 @@ title: Embedding d3 in github.io posts
 ---
 <iframe src="https://vida.io/gists/4xhNr9bKjfue2F2Dg/index.html" seamless frameborder="0" width="968" height="508"></iframe>
 
-You can embed d3 into [jekyll github blogs!](https://jekyllrb.com/) I'm using [vida.io](https://vida.io/) to host the visualization and the "iframe" html5 tag to render it here. Check the page source! This visualization was taken from Mike Bostock's [cool collection](https://bl.ocks.org/mbostock)
+You can embed d3 into [jekyll github blogs!](https://jekyllrb.com/) I'm using [vida.io](https://vida.io/) to host the visualization and the "iframe" html5 tag to render it here. Check the page source! This visualization was taken from Mike Bostock's [cool collection](https://bl.ocks.org/mbostock) (it's making me sea sick...)
 
 
 For those unfamiliar with "d3": It's essentially a java script library that allows you to easily create "data driven (web) documents" (3 d's... GET IT?). From d3's website itself: "For example, You can use D3 to generate an HTML table from an array of numbers. Or, use the same data to create an interactive SVG bar chart with smooth transitions and interaction." 
