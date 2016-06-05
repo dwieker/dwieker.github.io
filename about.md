@@ -6,14 +6,14 @@ permalink: /about/
 
 Aspiring Data Scientist in San Fransisco. Currently a student at Metis, an immersive 12 week program (funded by Kaplan!) focused on training industry ready data scientists. 
 
-In this blog I write about some of the projects I've been working on. I'm interested in new Data Science opportunities, so please feel free to contact me if you're interested in hiring! I'm a recent college grad with a strong math/physics background and software engineering skills.
+In this blog I write about some of the projects I've been working on. I'm interested in new Data Science opportunities, so please feel free to contact me if you're interested in hiring! I'm a recent college grad with a strong math/physics background, machine learning skills and software engineering experience.
 
 Education:  
 B.S. Physics, Minor Mathematics  
 California Polytechnic University, 2016
 
 Non-Nerdy things:  
-Snowboarding, motorcycles and hiking help maintain my sanity outside of the work place :)
+Snowboarding, motorcycles and hiking help maintain my sanity outside of the work place!
 
 ### Contact Me!
 
