@@ -5,7 +5,8 @@ title: Desktop Chess App/Chess Engine
 
 ![Ouput](https://github.com/dwieker/dwieker.github.io/blob/master/images/chessApp.png?raw=true)
 
-![Output](https://github.com/dwieker/ChessApp/blob/master/gif/out.gif)
+
+<iframe src="!https://github.com/dwieker/ChessApp/blob/master/gif/out.gif" seamless frameborder="0" width="968" height="508"></iframe>
 
  
 
