@@ -8,7 +8,7 @@ title: Desktop Chess App/Chess Engine
  
 
 The history of chess engines is pretty interesting. Modern computers can easily defeat any human player -- even
-grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, a friend and I decided to attempt our own chess engine to learn more about chess AI.
+grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, a friend and I decided to attempt our own chess engine.
 
 ### Board Representation
 There's multiple ways to represent the state of a chess board, each with pros and cons. You can store a 2-d array of pieces (8x8 -- the size of a chess board), or a 1d list of pieces, where each piece stores its current position. There's also [bitboards](https://chessprogramming.wikispaces.com/Bitboards), which is considered to be one of the fastest implementations (but also difficult). We went with something called the ["0x88" representation](https://chessprogramming.wikispaces.com/0x88) because it was relatively easy to implement and was also very fast (you can quickly calculate whether a piece is near an edge, or on a diagonal, or in rank with another piece, etc.)
