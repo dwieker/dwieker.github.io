@@ -3,12 +3,8 @@ layout: post
 title: Desktop Chess App/Chess Engine
 ---
 
-![Ouput](https://github.com/dwieker/dwieker.github.io/blob/master/images/chessApp.png?raw=true)
-
 
 ![GIF](https://github.com/dwieker/ChessApp/blob/master/gif/out.gif?raw=true)
-
- 
 
 The history of chess engines is pretty interesting. Modern computers can easily defeat any human player -- even
 grandmasters -- but there's been many attempts at different algorithms and techniques before that was true. With the help of online chess AI resources, a friend and I decided to attempt our own chess engine.
