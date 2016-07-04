@@ -5,6 +5,8 @@ title: Desktop Chess App/Chess Engine
 
 ![Ouput](https://github.com/dwieker/dwieker.github.io/blob/master/images/chessApp.png?raw=true)
 
+![Output](https://github.com/dwieker/ChessApp/blob/master/gif/out.gif)
+
  
 
 The history of chess engines is pretty interesting. Modern computers can easily defeat any human player -- even
