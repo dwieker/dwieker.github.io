@@ -8,7 +8,7 @@ I'm an aspiring Data Scientist in San Fransisco and recent grad of Metis, a 12 w
 
 Education:  
 B.S. Physics, Minor Mathematics  
-California Polytechnic University, 2016
+California Polytechnic University San Luis Obispo, 2016
 
 Non-Nerdy Interests:  
 Snowboarding, motorcycles and hiking!
